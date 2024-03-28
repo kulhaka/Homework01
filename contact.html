@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a> |</li>
+        <li><a href="./education.html">Education</a> |</li>
+        <li><a href="./workexperience.html">Work Experience</a> |</li>
+        <li><a href="#">Contact Me</a> |</li>
+    </ul>
+    <hr />
+
+    <h1>Contact Me</h1>
+
+    <div class="contactform">
+        <form action="./index.html" method="get">
+            <p>Enter your info..</p>
+            <label> Your Name <br />
+                <input type="text" name="name" size="50" />
+            </label><br /><br />
+            <label> Your Email <br />
+                <input type="email" name="email" size="50" />
+            </label><br /><br />
+            <label> Gender <br />
+                <select name="gender" style="width: 300px;">
+                    <option style="display: none;">select..</option>
+                    <option value="m">Male</option>
+                    <option value="f">Female</option>
+                    <option value="n">Non-binary</option>
+                    <option value="u">Prefer not to disclose</option>
+                </select>
+            </label><br /><br />
+            <label> Message <br />
+                <textarea rows="7" cols="48" name="message"></textarea>
+            </label><br /><br />
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

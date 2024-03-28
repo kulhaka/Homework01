@@ -1,0 +1,33 @@
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    gap: 4px;
+    justify-content: flex-start;
+}
+.education, .workexperience {
+    width: 700px;
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+    padding: 8px
+}
+
+.education th, .education td, .workexperience th, .workexperience td {
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.workexperience th {
+    background: lightblue
+}
+
+.contactform {
+    box-sizing: border-box;
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-inline: 30px;
+    padding-block: 25px;
+}
